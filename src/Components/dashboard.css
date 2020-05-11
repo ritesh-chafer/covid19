@@ -18,8 +18,11 @@ body {
   display: inline-block;
   justify-content: space-between;
 }
-
+.introduction{
+  padding-top: 17px;
+}
 .content {
+  
   height: 209px;
   background-color: #dfebfe;
   border-style: none;
@@ -59,10 +62,7 @@ body {
   text-align: left;
 }
 .box1 {
-  padding-top: 25px;
- 
-  
-  
+  padding-top: 25px; 
 }
 .box1-1 {
   

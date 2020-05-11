@@ -40,17 +40,19 @@ class Home extends Component {
             }}
           />
         </h1>
-
-        <Card className="content">
-          <CardBody>
-            <CardTitle className="salutation">Good Job, Aron !</CardTitle>
-            <CardText className="update">
-              You have finished all you tasks for this week.
-              <br />
-              Keep it up and imrove your results!
-            </CardText>
-          </CardBody>
-        </Card>
+        <CardDeck className="introduction">
+          <Card className="content">
+            <CardBody>
+              <CardTitle className="salutation">Good Job, Aron !</CardTitle>
+              <CardText className="update">
+                You have finished all you tasks for this week.
+                <br />
+                Keep it up and imrove your results!
+              </CardText>
+              <img src="Developer.svg" />
+            </CardBody>
+          </Card>
+        </CardDeck>
         <CardDeck className="stats">
           <Card className="stats-card">
             <CardBody>
