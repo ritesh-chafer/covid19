@@ -10,18 +10,20 @@ import {
   CardBody,
 } from "reactstrap";
 import "./dashboard.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Home extends Component {
   render() {
     return (
       <div>
+        <i class="fas fa-apple-alt"></i>
         <div className="dashboard">
           <h1 className="h3 mb-2 text-gray-800">Dashboard</h1>
         </div>
         <Card className="content">
           <CardBody>
-            <CardTitle>Good Job, Aron !</CardTitle>
-            <CardText>
+            <CardTitle className="salutation">Good Job, Aron !</CardTitle>
+            <CardText className="update">
               You have finished all you tasks for this week.
               <br />
               Keep it up and imrove your results!
@@ -31,7 +33,7 @@ class Home extends Component {
         <CardDeck className="stats">
           <Card className="stats-card">
             <CardBody>
-              <CardTitle>Card title</CardTitle>
+              <CardTitle className="Title">Companies</CardTitle>
 
               <CardText>
                 This is a wider card with supporting text below as a natural
@@ -42,7 +44,7 @@ class Home extends Component {
           </Card>
           <Card className="stats-card">
             <CardBody>
-              <CardTitle>Card title</CardTitle>
+              <CardTitle className="Title">Projects</CardTitle>
 
               <CardText>
                 This card has supporting text below as a natural lead-in to
@@ -52,7 +54,7 @@ class Home extends Component {
           </Card>
           <Card className="stats-card">
             <CardBody>
-              <CardTitle>Card title</CardTitle>
+              <CardTitle className="Title">Students</CardTitle>
 
               <CardText>
                 This is a wider card with supporting text below as a natural
@@ -63,7 +65,7 @@ class Home extends Component {
           </Card>
           <Card className="stats-card">
             <CardBody>
-              <CardTitle>Card title</CardTitle>
+              <CardTitle className="Title">Challenges</CardTitle>
 
               <CardText>
                 This is a wider card with supporting text below as a natural
