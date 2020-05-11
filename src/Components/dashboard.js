@@ -18,29 +18,28 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="dashboard">
-          <h1>Dashboard</h1>
-          <div className="logo">
-            <FaSearch
-              style={{
-                color: "#1F4DE4",
-                fontSize: 40,
-                height: 40,
-                width: 40,
-                marginLeft: 947,
-              }}
-            />
-            <FaRegUser
-              style={{
-                color: "#1F4DE4",
-                fontSize: 40,
-                height: 40,
-                width: 40,
-                marginLeft: 42,
-              }}
-            />
-          </div>
-        </div>
+        <h1>
+          Dashboard
+          <FaRegUser
+            style={{
+              color: "#1F4DE4",
+              fontSize: 40,
+              height: 40,
+              width: 40,
+              float: "right",
+            }}
+          />
+          <FaSearch
+            style={{
+              color: "#1F4DE4",
+              fontSize: 40,
+              height: 40,
+              width: 40,
+
+              float: "right",
+            }}
+          />
+        </h1>
 
         <Card className="content">
           <CardBody>
