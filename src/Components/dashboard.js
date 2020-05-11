@@ -71,8 +71,9 @@ class Home extends Component {
             </CardBody>
           </Card>
         </CardDeck>
-        <div>
-          <CardDeck>
+        <div className="box">
+          <h2>Recently updated challenges</h2>
+          <CardDeck className="box1">
             <Card className="box1-1">
               <CardBody>
                 <CardTitle>Card title</CardTitle>
@@ -106,7 +107,7 @@ class Home extends Component {
               </CardBody>
             </Card>
           </CardDeck>
-          <CardDeck>
+          <CardDeck className="box2">
             <Card className="box2-1">
               <CardBody>
                 <CardTitle>Card title</CardTitle>

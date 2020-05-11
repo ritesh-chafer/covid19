@@ -1,7 +1,7 @@
-body{
-    padding: 45px 45px;
-    background-color: #F5F6FB;
-    opacity: 1;
+body {
+  padding: 45px 45px;
+  background-color: #f5f6fb;
+  opacity: 1;
 }
 .content {
   height: 209px;
@@ -11,15 +11,26 @@ body{
   opacity: 1;
 }
 .stats {
+  padding-top: 40px;
 }
 .stats-card {
   background-color: #ffffff;
   border-style: none;
   border-radius: 15px;
   opacity: 1;
-
 }
-
+.box h2 {
+  padding-top: 40px;
+  text-transform: uppercase;
+  font: medium 20px/26px Roboto;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #000000;
+  text-align: left;
+}
+.box1 {
+  padding-top: 25px;
+}
 .box1-1 {
   background-color: #9cf6f6;
   border-style: none;
@@ -37,6 +48,9 @@ body{
   border-style: none;
   border-radius: 15px;
   opacity: 1;
+}
+.box2 {
+  padding-top: 40px;
 }
 .box2-1 {
   background-color: #ffb1b8;
