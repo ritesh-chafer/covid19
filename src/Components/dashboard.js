@@ -15,17 +15,19 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="Dashboard">
+        <div className="dashboard">
           <h1 className="h3 mb-2 text-gray-800">Dashboard</h1>
         </div>
-        <div className="content">
-          <h2>Good Job, Aron</h2>
-          <p>
-            You have finished all you tasks for this week.
-            <br />
-            Keep it up and imrove your results!
-          </p>
-        </div>
+        <Card className="content">
+          <CardBody>
+            <CardTitle>Good Job, Aron !</CardTitle>
+            <CardText>
+              You have finished all you tasks for this week.
+              <br />
+              Keep it up and imrove your results!
+            </CardText>
+          </CardBody>
+        </Card>
         <CardDeck className="stats">
           <Card className="stats-card">
             <CardBody>
