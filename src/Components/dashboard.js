@@ -10,13 +10,16 @@ import {
   CardBody,
 } from "reactstrap";
 import "./dashboard.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { FaSearch } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <i class="fas fa-apple-alt"></i>
+        <FaSearch className="search" />
+        <FaRegUser className="user" />
         <div className="dashboard">
           <h1 className="h3 mb-2 text-gray-800">Dashboard</h1>
         </div>
