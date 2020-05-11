@@ -48,8 +48,13 @@ class Home extends Component {
                 You have finished all you tasks for this week.
                 <br />
                 Keep it up and imrove your results!
+                <img
+                  src="./images/Developer.svg"
+                  width="200px"
+                  height="200px"
+                  float="right"
+                />
               </CardText>
-              <img src="Developer.svg" />
             </CardBody>
           </Card>
         </CardDeck>
