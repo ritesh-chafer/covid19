@@ -1,18 +1,23 @@
 body{
     padding: 45px 45px;
+    background-color: #F5F6FB;
+    opacity: 1;
 }
 .content {
   height: 209px;
-  background: #dfebfe 0% 0% no-repeat padding-box;
+  background-color: #dfebfe;
+  border-style: none;
   border-radius: 15px;
   opacity: 1;
 }
 .stats {
 }
 .stats-card {
-  background: #ffffff 0% 0% no-repeat padding-box;
+  background-color: #ffffff;
+  border-style: none;
   border-radius: 15px;
   opacity: 1;
+
 }
 
 .box1-1 {
