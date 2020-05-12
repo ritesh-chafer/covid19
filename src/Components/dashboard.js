@@ -17,7 +17,7 @@ import { FaRegUser } from "react-icons/fa";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <h1>
           Dashboard
           <FaRegUser
@@ -43,17 +43,21 @@ class Home extends Component {
         <CardDeck className="introduction">
           <Card className="content">
             <CardBody>
-              <CardTitle className="salutation">Good Job, Aron !</CardTitle>
+              <img
+                className="image"
+                src="./images/Developer.svg"
+                style={{
+                  width: "340px",
+                  height: "200px",
+                  float: "right",
+                  paddingRight: "50px",
+                }}
+              />
+              <CardTitle className="salutation">Good Job, Aron ! </CardTitle>
               <CardText className="update">
                 You have finished all you tasks for this week.
                 <br />
                 Keep it up and imrove your results!
-                <img
-                  src="./images/Developer.svg"
-                  width="200px"
-                  height="200px"
-                  float="right"
-                />
               </CardText>
             </CardBody>
           </Card>

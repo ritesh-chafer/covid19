@@ -1,11 +1,11 @@
-body {
+.main {
   padding: 40px 45px;
   background-color: #f5f6fb;
   opacity: 1;
 
 }
 @media screen and (max-width: 1000px) {
-  body {
+  .main {
    padding: 30px 30px;
   }
 }
@@ -32,14 +32,36 @@ body {
 .salutation {
   color: #1e4fe5;
   font-size: 35px;
+  padding-left: 70px;
+   padding-top: 15px;
 }
 .update {
   color: #131336;
   opacity: 1;
   font-size: 20px;
+   padding-left: 70px;
+   
+}
+@media screen and (max-width:800px){
+  .image{
+    display: none;
+
+  }
+  .salutation{
+    padding-left: 0px;
+  }
+   .update{
+    padding-left: 0px;
+    line-height: normal;
+  }
 }
 .stats {
   padding-top: 40px;
+}
+@media screen and (max-width:500px){
+  .stats{
+    padding-top: 15px;
+  }
 }
 .stats-card {
   background-color: #ffffff;
