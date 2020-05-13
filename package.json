@@ -16,6 +16,7 @@
     "react-icons": "^3.10.0",
     "react-popper": "^2.2.3",
     "react-responsive-sidebar": "^0.1.16",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-sidebar": "^3.0.2",
     "reactstrap": "^8.4.1"
