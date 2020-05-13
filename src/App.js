@@ -20,7 +20,7 @@ const items = [
 function App() {
   return (
     <div className="App">
-      <Sidebar content={items} background={'#FEFEFE'} toggleIconColor={'#000000'} width={288}>
+      <Sidebar content={items} background={'#FEFEFE'} toggleIconColor={'#000000'} width={288} hieght= {1080}>
         <Dashboard />
       </Sidebar>
     </div>

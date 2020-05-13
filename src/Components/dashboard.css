@@ -1,12 +1,18 @@
 .main {
-  padding: 40px 60px;
+  
+      padding-top: 60px;
+   padding-left: 60px;
+   padding-right: 60px;
   background-color: #f5f6fb;
   opacity: 1;
 
 }
 @media screen and (max-width: 1000px) {
   .main {
-   padding: 30px 30px;
+    padding-top: 50px;
+   padding-left: 18px;
+   padding-right: 18px;
+   padding-bottom: 20px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -14,10 +20,7 @@
    padding: 20px 20px;
   }
 }
-.dashboard{
-  display: inline-block;
-  justify-content: space-between;
-}
+
 .introduction{
   padding-top: 17px;
 }
@@ -85,6 +88,7 @@
 }
 .box1 {
   padding-top: 25px; 
+  
 }
 .box1-1 {
   
@@ -92,6 +96,7 @@
   border-style: none;
   border-radius: 15px;
   opacity: 1;
+  
 }
 .box1-2 {
     
@@ -105,6 +110,7 @@
   border-style: none;
   border-radius: 15px;
   opacity: 1;
+  
 }
 .box2 {
   padding-top: 40px;
