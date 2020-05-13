@@ -136,7 +136,7 @@ class Home extends Component {
                 </CardBody>
               </Card>
             </CardDeck>
-      
+          </div>
           <CardDeck className="box2">
             <Card className="box2-1">
               <CardBody>
