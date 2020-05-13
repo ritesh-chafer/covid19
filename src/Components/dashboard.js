@@ -172,7 +172,8 @@ class Home extends Component {
             </Card>
           </CardDeck>
         </div>
-      </div>
+      
+      
     );
   }
 }
