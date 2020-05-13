@@ -1,29 +1,28 @@
 import React from "react";
 import "./App.css";
-import Dashboard from "./Components/dashboard";
-import { Sidebar, SidebarItem } from 'react-responsive-sidebar';
-import { FaCubes, FaLayerGroup, FaUserAlt } from 'react-icons/fa';
-import { BsBuilding } from "react-icons/bs";
-import { IoMdChatbubbles } from "react-icons/io";
-
-const items = [
-  <SidebarItem color={'#000000'} textAlign={'center'} hoverHighlight={'#ffffff'}>Covid<br /> Opportunities</SidebarItem>,
-  <SidebarItem color={'#000000'} hoverHighlight={'#ffffff'}></SidebarItem>,
-  <SidebarItem color={'#000000'} leftIcon={ <FaCubes /> }>Dashboard</SidebarItem>,
-  <SidebarItem color={'#000000'} leftIcon={ <BsBuilding /> }>Companies</SidebarItem>,
-  <SidebarItem color={'#000000'} leftIcon={ <FaLayerGroup /> }>Projects</SidebarItem>,
-  <SidebarItem color={'#000000'} leftIcon={ <IoMdChatbubbles /> }>Chats</SidebarItem>,
-  <SidebarItem color={'#000000'} leftIcon={ <FaUserAlt /> }>Profile</SidebarItem>,
-];
+import Company from "./Components/Company";
+import Navbar from './Components/Navbar';
+import Project from './Components/Project';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 
 function App() {
   return (
-    <div className="App">
-      <Sidebar content={items} background={'#FEFEFE'} toggleIconColor={'#000000'} width={288} hieght= {1080}>
-        <Dashboard />
-      </Sidebar>
-    </div>
+    <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Company />
+          </Route>
+          <Route path="/projects">
+            <Project />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 
