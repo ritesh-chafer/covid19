@@ -1,0 +1,39 @@
+.Main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 100px;
+  background: #f8f9fa;
+}
+@media screen and (max-width: 700px) {
+  .Main {
+    padding-top: 20px;
+     padding-left: 15px;
+  padding-right: 15px;
+  }
+}
+.content{
+  padding-top: 25px;
+}
+.stats-card {
+  border-radius: 25px;
+  border-style: none;
+  height: 230px;
+  width: 500px;
+  
+
+}
+.tabs{
+  padding-top: 25px;
+   padding-left: 50px;
+  
+
+}
+.stats {
+  padding-top: 25px;
+}
+@media screen and (max-width: 988px) {
+  .tabs {
+    display: none;
+  }
+}

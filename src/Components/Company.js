@@ -9,27 +9,29 @@ import {
   CardSubtitle,
   CardBody,
 } from "reactstrap";
+import "./Company.css";
 
 function Company() {
   return (
     <div className="Main">
       <div className="col lg-4">
         <center>
-          <h4>
-            Search by culture, tech-stack,values or perks. Sort by science-based
-            match score.
-          </h4>
+          <h2>Engineering teams that fit your preferences.</h2>
+          <h3>
+            Search by culture, tech stack, values or perks. Sort by
+            science-based match score.
+          </h3>
         </center>
       </div>
-      <Container>
-        <Row>
-          <Col xs="12" sm="3">
+     
+        <Row className="content">
+          <Col className="tabs" lg="3">
             <h4>
               1.Search by culture, tech-stack,values or perks. Sort by
               science-based match score.
             </h4>
           </Col>
-          <Col xs="12" sm="4">
+          <Col lg="4">
             <CardDeck className="stats">
               <Card className="stats-card">
                 <CardBody>
@@ -53,7 +55,7 @@ function Company() {
                 <CardBody>
                   <CardTitle className="Title">Companies</CardTitle>
 
-                  <CardText style={{ fontSize: "60px" }}>400</CardText>
+                  <CardText style={{ fontSize: "60px" }}>400xzbg</CardText>
                 </CardBody>
               </Card>
             </CardDeck>
@@ -67,7 +69,7 @@ function Company() {
               </Card>
             </CardDeck>
           </Col>
-          <Col sm="4">
+          <Col lg="4">
             <CardDeck className="stats">
               <Card className="stats-card">
                 <CardBody>
@@ -106,7 +108,7 @@ function Company() {
             </CardDeck>
           </Col>
         </Row>
-      </Container>
+      
     </div>
   );
 }
