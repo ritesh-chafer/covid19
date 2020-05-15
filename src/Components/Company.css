@@ -1,27 +1,74 @@
 .Main {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 150px;
-  padding-right: 100px;
+padding-right: 30px;
   background: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.Main h2{
+      font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: .05em;
+    color: #0f0f21;
+
+}
+.Main h3{
+    font-weight: 000;
+    font-size: 16px;
+    font-style: ;
+    letter-spacing: .04em;
+    color: #38374a;
+}
+.Main .h5{
+  font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: .04em;
+    color: ##38374a;
 }
 @media screen and (max-width: 700px) {
   .Main {
-    padding-top: 20px;
-     padding-left: 15px;
-  padding-right: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+     
+ 
   }
+  .heading{
+    font-size: 25px;
+  }
+ 
 }
 .content{
   padding-top: 25px;
 }
+@media screen and (max-width:700px){
+  .content{
+    padding-top: 0px;
+  }
+}
 .stats-card {
+  padding:20px;
   border-radius: 25px;
   border-style: none;
-  height: 230px;
-  width: 500px;
+  height: 250px;
+  width: 470px;
   
 
+}
+@media screen and(max-width:700px){
+  .content{
+  padding-top:0px;
+}
+  .stats-card {
+  padding:0px;
+  border-radius: 25px;
+  border-style: none;
+  height: 250px;
+  width: 470px;
+  }
 }
 .image{
   width: 80px;
@@ -35,14 +82,33 @@
   color: #000000;
   background-color: transparent;
 }
+@media screen and (max-width:600px){
+  .image{
+  width: 40px;
+  height: 40px;
+}
+.address{
+  float:right;;
+}
+.Button{
+  padding-top: 1px;
+}
+.Button1{
+
+  color: #000000;
+  background-color: transparent;
+
+}}
 .tabs{
   padding-top: 25px;
-   padding-left: 50px;
+   padding-left: 30px;
+   padding-right: 60px;
   
 
 }
 .stats {
   padding-top: 25px;
+  
 }
 @media screen and (max-width: 1300px) {
   .tabs {
