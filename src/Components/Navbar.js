@@ -14,6 +14,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import "./Navbar.css";;
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,7 @@ const Example = (props) => {
             <NavItem>
               <NavLink><Link to="/projects" style={{textDecoration: 'none', color: 'black'}}>Projects</Link></NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="hover">
               <NavLink><Link to="/" style={{textDecoration: 'none', color: 'black'}}>Chats</Link></NavLink>
             </NavItem>
             <NavItem>

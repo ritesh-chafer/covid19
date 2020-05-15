@@ -84,12 +84,11 @@ padding-right: 30px;
 }
 @media screen and (max-width:600px){
   .image{
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
-.address{
-  float:right;;
-}
+
+
 .Button{
   padding-top: 1px;
 }
