@@ -32,13 +32,14 @@ function Company() {
             science-based match score.
           </h4>
         </Col>
+
         <Col lg="4">
           <CardDeck className="stats">
             <Card className="stats-card">
               <CardBody>
                 <Row>
                   <Col lg="3">
-                    <CardImg className="image" src="/images/Bridg.png" />
+                    <CardImg className="image" src="/images/scalyr.png" />
                   </Col>
                   <Col lg="9">
                     <CardText>
@@ -52,42 +53,9 @@ function Company() {
                   </Col>
                 </Row>
                 <div className="Button">
-                  <div className="Button1"></div>
-                  <Button size="sm">Predictive Technology </Button>
                   <Button className="Button1" size="sm">
-                    Marketing Automation
+                    Predictive Technology}
                   </Button>
-                  <Button className="Button1" size="sm">
-                    Business Intelligence
-                  </Button>
-                  <Button className="Button1" size="sm">
-                    Customer Retention
-                  </Button>
-                </div>
-              </CardBody>
-            </Card>
-          </CardDeck>
-          <CardDeck className="stats">
-            <Card className="stats-card">
-              <CardBody>
-                <Row>
-                  <Col lg="3">
-                    <CardImg className="image" src="/images/Bridg.png" />
-                  </Col>
-                  <Col lg="9">
-                    <CardText>
-                      <h3>
-                        Los Angeles <br />
-                      </h3>
-                      <h5>
-                        1-50 People <br /> 5 openings
-                      </h5>
-                    </CardText>
-                  </Col>
-                </Row>
-                <div className="Button">
-                  <div className="Button1"></div>
-                  <Button size="sm">Predictive Technology </Button>
                   <Button className="Button1" size="sm">
                     Marketing Automation
                   </Button>
@@ -107,7 +75,7 @@ function Company() {
               <CardBody>
                 <Row>
                   <Col lg="3">
-                    <CardImg className="image" src="/images/Bridg.png" />
+                    <CardImg className="image" src="/images/loom.png" />
                   </Col>
                   <Col lg="9">
                     <CardText>
@@ -121,8 +89,9 @@ function Company() {
                   </Col>
                 </Row>
                 <div className="Button">
-                  <div className="Button1"></div>
-                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Predictive Technology}
+                  </Button>
                   <Button className="Button1" size="sm">
                     Marketing Automation
                   </Button>
@@ -142,7 +111,7 @@ function Company() {
               <CardBody>
                 <Row>
                   <Col lg="3">
-                    <CardImg className="image" src="/images/Bridg.png" />
+                    <CardImg className="image" src="/images/dott.png" />
                   </Col>
                   <Col lg="9">
                     <CardText>
@@ -156,8 +125,45 @@ function Company() {
                   </Col>
                 </Row>
                 <div className="Button">
-                  <div className="Button1"></div>
-                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Predictive Technology}
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/terrazo.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Predictive Technology}
+                  </Button>
                   <Button className="Button1" size="sm">
                     Marketing Automation
                   </Button>
@@ -172,13 +178,14 @@ function Company() {
             </Card>
           </CardDeck>
         </Col>
+
         <Col lg="4">
           <CardDeck className="stats">
             <Card className="stats-card">
               <CardBody>
                 <Row>
                   <Col lg="3">
-                    <CardImg className="image" src="/images/Bridg.png" />
+                    <CardImg className="image" src="/images/missionlane.png" />
                   </Col>
                   <Col lg="9">
                     <CardText>
@@ -192,8 +199,9 @@ function Company() {
                   </Col>
                 </Row>
                 <div className="Button">
-                  <div className="Button1"></div>
-                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Predictive Technology}
+                  </Button>
                   <Button className="Button1" size="sm">
                     Marketing Automation
                   </Button>
@@ -207,6 +215,7 @@ function Company() {
               </CardBody>
             </Card>
           </CardDeck>
+
           <CardDeck className="stats">
             <Card className="stats-card">
               <CardBody>
@@ -226,8 +235,9 @@ function Company() {
                   </Col>
                 </Row>
                 <div className="Button">
-                  <div className="Button1"></div>
-                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Predictive Technology}
+                  </Button>
                   <Button className="Button1" size="sm">
                     Marketing Automation
                   </Button>
@@ -241,6 +251,43 @@ function Company() {
               </CardBody>
             </Card>
           </CardDeck>
+
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/goodwatercapital.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Predictive Technology}
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+
           <CardDeck className="stats">
             <Card className="stats-card">
               <CardBody>
@@ -260,42 +307,9 @@ function Company() {
                   </Col>
                 </Row>
                 <div className="Button">
-                  <div className="Button1"></div>
-                  <Button size="sm">Predictive Technology </Button>
                   <Button className="Button1" size="sm">
-                    Marketing Automation
+                    Predictive Technology}
                   </Button>
-                  <Button className="Button1" size="sm">
-                    Business Intelligence
-                  </Button>
-                  <Button className="Button1" size="sm">
-                    Customer Retention
-                  </Button>
-                </div>
-              </CardBody>
-            </Card>
-          </CardDeck>
-          <CardDeck className="stats">
-            <Card className="stats-card">
-              <CardBody>
-                <Row>
-                  <Col lg="3">
-                    <CardImg className="image" src="/images/Bridg.png" />
-                  </Col>
-                  <Col lg="9">
-                    <CardText>
-                      <h3>
-                        Los Angeles <br />
-                      </h3>
-                      <h5>
-                        1-50 People <br /> 5 openings
-                      </h5>
-                    </CardText>
-                  </Col>
-                </Row>
-                <div className="Button">
-                  <div className="Button1"></div>
-                  <Button size="sm">Predictive Technology </Button>
                   <Button className="Button1" size="sm">
                     Marketing Automation
                   </Button>

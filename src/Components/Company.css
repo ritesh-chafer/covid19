@@ -32,6 +32,8 @@
 }
 .Button1{
   margin: 3px;
+  color: #000000;
+  background-color: transparent;
 }
 .tabs{
   padding-top: 25px;
