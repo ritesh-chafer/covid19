@@ -23,6 +23,16 @@
   
 
 }
+.image{
+  width: 80px;
+  height: 80px;
+}
+.Button{
+  padding-top: 8px;
+}
+.Button1{
+  margin: 3px;
+}
 .tabs{
   padding-top: 25px;
    padding-left: 50px;

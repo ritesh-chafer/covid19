@@ -8,6 +8,7 @@ import {
   CardDeck,
   CardSubtitle,
   CardBody,
+  Button,
 } from "reactstrap";
 import "./Company.css";
 
@@ -23,92 +24,293 @@ function Company() {
           </h3>
         </center>
       </div>
-     
-        <Row className="content">
-          <Col className="tabs" lg="3">
-            <h4>
-              1.Search by culture, tech-stack,values or perks. Sort by
-              science-based match score.
-            </h4>
-          </Col>
-          <Col lg="4">
-            <CardDeck className="stats">
-              <Card className="stats-card">
-                <CardBody>
-                  <CardTitle className="Title">Companies</CardTitle>
 
-                  <CardText style={{ fontSize: "60px" }}>400</CardText>
-                </CardBody>
-              </Card>
-            </CardDeck>
-            <CardDeck className="stats">
-              <Card className="stats-card">
-                <CardBody>
-                  <CardTitle className="Title">Companies</CardTitle>
+      <Row className="content">
+        <Col className="tabs" lg="3">
+          <h4>
+            1.Search by culture, tech-stack,values or perks. Sort by
+            science-based match score.
+          </h4>
+        </Col>
+        <Col lg="4">
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/Bridg.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <div className="Button1"></div>
+                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/Bridg.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <div className="Button1"></div>
+                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
 
-                  <CardText style={{ fontSize: "60px" }}>400</CardText>
-                </CardBody>
-              </Card>
-            </CardDeck>
-            <CardDeck className="stats">
-              <Card className="stats-card">
-                <CardBody>
-                  <CardTitle className="Title">Companies</CardTitle>
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/Bridg.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <div className="Button1"></div>
+                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
 
-                  <CardText style={{ fontSize: "60px" }}>400xzbg</CardText>
-                </CardBody>
-              </Card>
-            </CardDeck>
-            <CardDeck className="stats">
-              <Card className="stats-card">
-                <CardBody>
-                  <CardTitle className="Title">Companies</CardTitle>
-
-                  <CardText style={{ fontSize: "60px" }}>400</CardText>
-                </CardBody>
-              </Card>
-            </CardDeck>
-          </Col>
-          <Col lg="4">
-            <CardDeck className="stats">
-              <Card className="stats-card">
-                <CardBody>
-                  <CardTitle className="Title">Students</CardTitle>
-
-                  <CardText style={{ fontSize: "60px" }}>20</CardText>
-                </CardBody>
-              </Card>
-            </CardDeck>
-            <CardDeck className="stats">
-              <Card className="stats-card">
-                <CardBody>
-                  <CardTitle className="Title">Students</CardTitle>
-
-                  <CardText style={{ fontSize: "60px" }}>20</CardText>
-                </CardBody>
-              </Card>
-            </CardDeck>
-            <CardDeck className="stats">
-              <Card className="stats-card">
-                <CardBody>
-                  <CardTitle className="Title">Students</CardTitle>
-
-                  <CardText style={{ fontSize: "60px" }}>20</CardText>
-                </CardBody>
-              </Card>
-            </CardDeck>
-            <CardDeck className="stats">
-              <Card className="stats-card">
-                <CardBody>
-                  <CardTitle className="Title">Students</CardTitle>
-
-                  <CardText style={{ fontSize: "60px" }}>20</CardText>
-                </CardBody>
-              </Card>
-            </CardDeck>
-          </Col>
-        </Row>
-      
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/Bridg.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <div className="Button1"></div>
+                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+        </Col>
+        <Col lg="4">
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/Bridg.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <div className="Button1"></div>
+                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/Bridg.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <div className="Button1"></div>
+                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/Bridg.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <div className="Button1"></div>
+                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+          <CardDeck className="stats">
+            <Card className="stats-card">
+              <CardBody>
+                <Row>
+                  <Col lg="3">
+                    <CardImg className="image" src="/images/Bridg.png" />
+                  </Col>
+                  <Col lg="9">
+                    <CardText>
+                      <h3>
+                        Los Angeles <br />
+                      </h3>
+                      <h5>
+                        1-50 People <br /> 5 openings
+                      </h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <div className="Button1"></div>
+                  <Button size="sm">Predictive Technology </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+        </Col>
+      </Row>
     </div>
   );
 }
