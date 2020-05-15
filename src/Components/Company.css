@@ -32,8 +32,11 @@
 .stats {
   padding-top: 25px;
 }
-@media screen and (max-width: 988px) {
+@media screen and (max-width: 1300px) {
   .tabs {
     display: none;
+  }
+  .stats-card{
+    width:auto;
   }
 }
