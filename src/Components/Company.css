@@ -1,7 +1,8 @@
 .Main {
   padding-top: 50px;
   padding-bottom: 50px;
-
+padding-left: 29px;
+padding-right:29px ;
   background: #f8f9fa;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -19,7 +20,7 @@
 }
 .Main h3{
     font-weight: 000;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: .04em;
     color: #38374a;
 }
@@ -34,6 +35,7 @@
   .Main {
     padding-top: 0px;
     padding-right: 0px;
+    
      
  
   }
@@ -52,7 +54,7 @@
 }
 .stats-card {
   padding:15px;
-  border-radius: 25px;
+  border-radius: 20px;
   border-style: none;
   height: 250px;
   width: 500px;
@@ -65,7 +67,7 @@
 }
   .stats-card {
   padding:0px;
-  border-radius: 25px;
+  border-radius: 20px;
   border-style: none;
   height: 250px;
   width: 470px;
@@ -83,11 +85,17 @@
   margin: 3px;
   
   background-color: transparent;
+  border-radius: 3px;
+  border-width: 0.5px;
+  border-color: #c7c7c7;
   color:#656574;
   align-items: center;
   text-align: center;
   font-size: 13px;
 }
+
+
+
 @media screen and (max-width:600px){
   .image{
   width: 60px;
@@ -99,6 +107,7 @@
   padding-top: 1px;
 }
 .Button1{
+  
  color:#656574;
   align-items: center;
   text-align: center;
@@ -107,14 +116,14 @@
 }}
 .tabs{
   padding-top: 20px;
-   padding-left: 38px;
-   padding-right: 60px;
+
+padding-right: 100px;
   
 
 }
 .stats {
   padding-top: 15px;
-  padding-left: 9px;
+  
 
 }
 @media screen and (max-width: 1300px) {

@@ -25,62 +25,25 @@ const Example = (props) => {
     <div className="main">
       <Navbar color="light" light expand="md">
         <NavbarToggler onClick={toggle} />
-        <NavbarBrand>Covid Opportunities</NavbarBrand>
-
+        <NavLink style={{fontSize: 20}}><b>Covid Opportunities</b></NavLink>
+        
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <Nav className="stroke">
-              <NavItem className="nav">
-                <NavLink>
-                  <Link
-                    to="/"
-                    style={{ textDecoration: "none", color: "black" }}
-                  >
-                    Companies
-                  </Link>
-                </NavLink>
-              </NavItem>
-              <NavItem className="nav">
-                <NavLink>
-                  <Link
-                    to="/projects"
-                    style={{ textDecoration: "none", color: "black" }}
-                  >
-                    Projects
-                  </Link>
-                </NavLink>
-              </NavItem>
-              <NavItem className="nav">
-                <NavLink>
-                  <Link
-                    to="/"
-                    style={{ textDecoration: "none", color: "black" }}
-                  >
-                    Chats
-                  </Link>
-                </NavLink>
-              </NavItem>
-              <NavItem className="nav">
-                <NavLink>
-                  <Link
-                    to="/"
-                    style={{ textDecoration: "none", color: "black" }}
-                  >
-                    Profile
-                  </Link>
-                </NavLink>
-              </NavItem>
-              <NavItem className="nav">
-                <NavLink>
-                  <Link
-                    to="/"
-                    style={{ textDecoration: "none", color: "black" }}
-                  >
-                    Logout
-                  </Link>
-                </NavLink>
-              </NavItem>
-            </Nav>
+            <NavItem>
+              <NavLink><Link to="/" style={{textDecoration: 'none', color: 'black', fontSize: 18}}>Companies</Link></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink><Link to="/projects" style={{textDecoration: 'none', color: 'black', fontSize: 18}}>Projects</Link></NavLink>
+            </NavItem>
+            <NavItem className="hover">
+              <NavLink><Link to="/" style={{textDecoration: 'none', color: 'black', fontSize: 18}}>Chats</Link></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink><Link to="/" style={{textDecoration: 'none', color: 'black', fontSize: 18}}>Profile</Link></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink><Link to="/" style={{textDecoration: 'none', color: 'black', fontSize: 18}}>Logout</Link></NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

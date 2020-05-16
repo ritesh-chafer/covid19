@@ -15,322 +15,362 @@ import "./Company.css";
 function Company() {
   return (
     <div className="Main">
-     
-        <div className="col lg-4">
-          <center>
-            <h2 className="heading">
-              <b>Engineering teams that fit your preferences.</b>
-            </h2>
-            <h3 className="heading">
-              Search by culture, tech stack, values or perks. Sort by
-              science-based match score.
-            </h3>
-          </center>
-        </div>
+      <div className="col lg-4">
+        <center>
+          <h2 className="heading">
+            <b>Engineering teams that fit your preferences.</b>
+          </h2>
+          <h3 className="heading">
+            Search by culture, tech stack, values or perks. Sort by
+            science-based match score.
+          </h3>
+        </center>
+      </div>
 
-        <Row className="content">
-         
-          <Col className="tabs" lg="3">
-            <h4 className="m-2">LOCATION</h4>
-            <Button color="primary" size="sm" className="m-2">
-              San Fransisco
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              New York
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              London
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              Bangalore
-            </Button>
-            <br />
-            <h4 className="m-2">TECHNOLOGY</h4>
-            <Button color="primary" size="sm" className="m-2">
-              JavaScript
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              Python
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              NodeJS
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              Django
-            </Button>
-            <br />
-            <h4 className="m-2">SCALE</h4>
-            <Button color="primary" size="sm" className="m-2">
-              1-20 People
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              10-30 People
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              20-50 People
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              50-100 People
-            </Button>
-            <br />
-            <h4 className="m-2">INDUSTRY</h4>
-            <Button color="primary" size="sm" className="m-2">
-              Software
-            </Button>
-            <Button color="primary" size="sm" className="m-2">
-              Internet
-            </Button>
-            <Button color="primary" size="sm"className="m-2">
-              HealthCare
-            </Button>
-            <br />
-          </Col>
+      <Row className="content">
+        <Col className="tabs" lg="4">
+          <h4 className="m-1" style={{ fontSize: "15px" }}>
+            <b>LOCATION</b>
+          </h4>
+          <Button className="Button1" size="sm">
+            San Fransisco
+          </Button>
+          <Button className="Button1" size="sm">
+            New York
+          </Button>
+          <Button className="Button1" size="sm">
+            London
+          </Button>
+          <Button className="Button1" size="sm">
+            Bangalore
+          </Button>
+          <br />
+          <h4 className="m-1" style={{ fontSize: "15px" }}>
+            <b>TECHNOLOGY</b>
+          </h4>
+          <Button className="Button1" size="sm">
+            JavaScript
+          </Button>
+          <Button className="Button1" size="sm">
+            NodeJS
+          </Button>
+          <Button className="Button1" size="sm">
+            React
+          </Button>
+          <Button className="Button1" size="sm">
+            Python
+          </Button>
+          <br />
+          <h4 className="m-1" style={{ fontSize: "15px" }}>
+            <b>SCALE</b>
+          </h4>
+          <Button className="Button1" size="sm">
+            1-10 People
+          </Button>
+          <Button className="Button1" size="sm">
+            10-25 People
+          </Button>
+          <Button className="Button1" size="sm">
+            25-50 People
+          </Button>
+          <Button className="Button1" size="sm">
+            50-100 People
+          </Button>
+          <br />
+          <h4 className="m-1" style={{ fontSize: "15px" }}>
+            <b>INDUSTRY</b>
+          </h4>
+          <Button className="Button1" size="sm">
+            Software
+          </Button>
+          <Button className="Button1" size="sm">
+            Hardware
+          </Button>
+          <Button className="Button1" size="sm">
+            Business
+          </Button>
+          <Button className="Button1" size="sm">
+            Health Care
+          </Button>
 
-          <Col lg="ml-auto">
-            <CardDeck className="stats">
-              <Card className="stats-card  shadow">
-                <CardBody>
-                  <Row>
-                    <Col lg="2">
-                      <CardImg className="image" src="/images/scalyr.png" />
-                    </Col>
-                    <Col lg="2">
-                      <CardText className="address">
-                        <h2>Scalyr</h2>
-                        <h3>
-                          California <br />
-                        </h3>
-                        <h3>1-50 people </h3>
-                        <h5>5 openings</h5>
-                      </CardText>
-                    </Col>
-                  </Row>
-                  <div className="Button">
-                    <Button className="Button1" size="sm">
-                      Server Monitoring
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Log Search
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Alerting
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Server Metrics
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Log Aggregation
-                    </Button>
-                  </div>
-                </CardBody>
-              </Card>
-            </CardDeck>
+          <br />
+        </Col>
 
-            <CardDeck className="stats">
-              <Card className="stats-card shadow">
-                <CardBody>
-                  <Row>
-                    <Col lg="3">
-                      <CardImg className="image" src="/images/loom.png" />
-                    </Col>
-                    <Col lg="9">
-                      <CardText>
-                        <h2>Loom</h2>
-                        <h3>
-                          San Frasisco <br />
-                        </h3>
-                        <h3>1-1000 people </h3>
-                        <h5>10 openings</h5>
-                      </CardText>
-                    </Col>
-                  </Row>
-                  <div className="Button">
-                    <Button className="Button1" size="sm">
-                      Micro-mobility
-                    </Button>
-                    <br />
-                    <Button className="Button1" size="sm">
-                      Bike sharing
-                    </Button>
-                  </div>
-                </CardBody>
-              </Card>
-            </CardDeck>
+        <Col lg="4">
+          <CardDeck className="stats">
+            <Card className="stats-card  shadow">
+              <CardBody>
+                <Row>
+                  <Col lg="push-3">
+                    <CardImg
+                      className="image"
+                      src="/images/scalyr.png"
+                      style={{ borderRadius: "20%" }}
+                    />
+                  </Col>
 
-            <CardDeck className="stats">
-              <Card className="stats-card shadow">
-                <CardBody>
-                  <Row>
-                    <Col lg="3">
-                      <CardImg className="image" src="/images/dott.png" />
-                    </Col>
-                    <Col lg="9">
-                      <CardText>
-                        <h2>Dott</h2>
-                        <h3>
-                          Amsterdam <br />
-                        </h3>
-                        <h3>100-150 people </h3>
-                        <h5>10 openings</h5>
-                      </CardText>
-                    </Col>
-                  </Row>
-                  <div className="Button">
-                    <Button className="Button1" size="sm">
-                      Integration solutions
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Auomation
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Stategic consulting
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Software Development
-                    </Button>
-                  </div>
-                </CardBody>
-              </Card>
-            </CardDeck>
+                  <Col lg-push>
+                    <CardText className="address">
+                      <h2>
+                        Scalyr <br />
+                      </h2>
+                      <h3 style={{ paddingBlockStart: "5px" }}>California</h3>
+                      <h3 style={{ paddingBlockStart: "3px" }}>1-50 people </h3>
+                      <h5>5 openings</h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Server Monitoring
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Log Search
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Alerting
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Server Metrics
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Log Aggregation
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
 
-            <CardDeck className="stats">
-              <Card className="stats-card shadow">
-                <CardBody>
-                  <Row>
-                    <Col lg="3">
-                      <CardImg className="image" src="/images/terrazo.png" />
-                    </Col>
-                    <Col lg="9">
-                      <CardText>
-                        <h2>Terazo</h2>
-                        <h3>
-                          Virginia <br />
-                        </h3>
-                        <h3>1-100 people </h3>
-                        <h5>3 openings</h5>
-                      </CardText>
-                    </Col>
-                  </Row>
-                  <div className="Button">
-                    <Button className="Button1" size="sm">
-                      Finacial services
-                    </Button>
-                  </div>
-                </CardBody>
-              </Card>
-            </CardDeck>
-          </Col>
+          <CardDeck className="stats">
+            <Card className="stats-card shadow">
+              <CardBody>
+                <Row>
+                  <Col lg="push-3">
+                    <CardImg
+                      className="image"
+                      src="/images/loom.png"
+                      style={{ borderRadius: "20%" }}
+                    />
+                  </Col>
+                  <Col lg-push>
+                    <CardText>
+                      <h2>Loom</h2>
+                      <h3 style={{ paddingBlockStart: "5px" }}>
+                        San Frasisco <br />
+                      </h3>
+                      <h3 style={{ paddingBlockStart: "3px" }}>
+                        1-1000 people{" "}
+                      </h3>
+                      <h5>10 openings</h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Micro-mobility
+                  </Button>
+                  <br />
+                  <Button className="Button1" size="sm">
+                    Bike sharing
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
 
-          <Col lg="auto">
-            <CardDeck className="stats">
-              <Card className="stats-card shadow">
-                <CardBody>
-                  <Row>
-                    <Col lg="3">
-                      <CardImg
-                        className="image"
-                        src="/images/missionlane.png"
-                      />
-                    </Col>
-                    <Col lg="9">
-                      <CardText>
-                        <h2>Mission Lane</h2>
-                        <h3>
-                          San Fransisco <br />
-                        </h3>
-                        <h3>100-150 people </h3>
-                        <h5>5 openings</h5>
-                      </CardText>
-                    </Col>
-                  </Row>
-                  <div className="Button">
-                    <Button className="Button1" size="sm">
-                      Predictive Technology
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Markeying Automation
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Business Intelligence
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Customer Retention
-                    </Button>
-                  </div>
-                </CardBody>
-              </Card>
-            </CardDeck>
+          <CardDeck className="stats">
+            <Card className="stats-card shadow">
+              <CardBody>
+                <Row>
+                  <Col lg="push-3">
+                    <CardImg
+                      className="image"
+                      src="/images/dott.png"
+                      style={{ borderRadius: "20%" }}
+                    />
+                  </Col>
+                  <Col lg-push>
+                    <CardText>
+                      <h2>Dott</h2>
+                      <h3 style={{ paddingBlockStart: "5px" }}>
+                        Amsterdam <br />
+                      </h3>
+                      <h3 style={{ paddingBlockStart: "3px" }}>
+                        100-150 people{" "}
+                      </h3>
+                      <h5>10 openings</h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Integration solutions
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Auomation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Stategic consulting
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Software Development
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
 
-            <CardDeck className="stats">
-              <Card className="stats-card shadow">
-                <CardBody>
-                  <Row>
-                    <Col lg="3" sm="3">
-                      <CardImg className="image" src="/images/Bridg.png" />
-                    </Col>
-                    <Col lg="9">
-                      <CardText>
-                        <h2>Bridg</h2>
-                        <h3>
-                          Los Angeles <br />
-                        </h3>
-                        <h3>1-50 people </h3>
-                        <h5>5 openings</h5>
-                      </CardText>
-                    </Col>
-                  </Row>
-                  <div className="Button">
-                    <Button className="Button1" size="sm">
-                      Venture capital Firm
-                    </Button>
-                    <br />
-                    <Button className="Button1" size="sm">
-                      Private equity
-                    </Button>
-                  </div>
-                </CardBody>
-              </Card>
-            </CardDeck>
+          <CardDeck className="stats">
+            <Card className="stats-card shadow">
+              <CardBody>
+                <Row>
+                  <Col lg="push-3">
+                    <CardImg
+                      className="image"
+                      src="/images/terrazo.png"
+                      style={{ borderRadius: "20%" }}
+                    />
+                  </Col>
+                  <Col lg-push>
+                    <CardText>
+                      <h2>Terazo</h2>
+                      <h3 style={{ paddingBlockStart: "5px" }}>
+                        Virginia <br />
+                      </h3>
+                      <h3 style={{ paddingBlockStart: "3px" }}>
+                        1-100 people{" "}
+                      </h3>
+                      <h5>3 openings</h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Finacial services
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+        </Col>
 
-            <CardDeck className="stats">
-              <Card className="stats-card shadow">
-                <CardBody>
-                  <Row>
-                    <Col lg="3">
-                      <CardImg
-                        className="image"
-                        src="/images/goodwatercapital.png"
-                      />
-                    </Col>
-                    <Col lg="9">
-                      <CardText>
-                        <h2>Goodwater Capital</h2>
-                        <h3>California</h3>
-                        <h3>1-30 people </h3>
-                        <h5>5 openings</h5>
-                      </CardText>
-                    </Col>
-                  </Row>
-                  <div className="Button">
-                    <Button className="Button1" size="sm">
-                      Predictive Technology}
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Marketing Automation
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Business Intelligence
-                    </Button>
-                    <Button className="Button1" size="sm">
-                      Customer Retention
-                    </Button>
-                  </div>
-                </CardBody>
-              </Card>
-            </CardDeck>
-          </Col>
-        </Row>
-  
+        <Col lg="4">
+          <CardDeck className="stats">
+            <Card className="stats-card shadow">
+              <CardBody>
+                <Row>
+                  <Col lg="push-3">
+                    <CardImg
+                      className="image"
+                      src="/images/missionlane.png"
+                      style={{ borderRadius: "20%" }}
+                    />
+                  </Col>
+                  <Col lg-push>
+                    <CardText>
+                      <h2>Mission Lane</h2>
+                      <h3 style={{ paddingBlockStart: "5px" }}>
+                        San Fransisco <br />
+                      </h3>
+                      <h3 style={{ paddingBlockStart: "3px" }}>
+                        100-150 people{" "}
+                      </h3>
+                      <h5>5 openings</h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Predictive Technology
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Markeying Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+
+          <CardDeck className="stats">
+            <Card className="stats-card shadow">
+              <CardBody>
+                <Row>
+                  <Col lg="push-3">
+                    <CardImg
+                      className="image"
+                      src="/images/Bridg.png"
+                      style={{ borderRadius: "20%" }}
+                    />
+                  </Col>
+                  <Col lg-push>
+                    <CardText>
+                      <h2>Bridg</h2>
+                      <h3 style={{ paddingBlockStart: "5px" }}>
+                        Los Angeles <br />
+                      </h3>
+                      <h3 style={{ paddingBlockStart: "3px" }}>1-50 people </h3>
+                      <h5>5 openings</h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Venture capital Firm
+                  </Button>
+                  <br />
+                  <Button className="Button1" size="sm">
+                    Private equity
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+
+          <CardDeck className="stats">
+            <Card className="stats-card shadow">
+              <CardBody>
+                <Row>
+                  <Col lg="push-3">
+                    <CardImg
+                      className="image"
+                      src="/images/goodwatercapital.png"
+                      style={{ borderRadius: "20%" }}
+                    />
+                  </Col>
+                  <Col lg-push>
+                    <CardText>
+                      <h2>Goodwater Capital</h2>
+                      <h3 style={{ paddingBlockStart: "5px" }}>California</h3>
+                      <h3 style={{ paddingBlockStart: "3px" }}>1-30 people </h3>
+                      <h5>5 openings</h5>
+                    </CardText>
+                  </Col>
+                </Row>
+                <div className="Button">
+                  <Button className="Button1" size="sm">
+                    Predictive Technology}
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Marketing Automation
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Business Intelligence
+                  </Button>
+                  <Button className="Button1" size="sm">
+                    Customer Retention
+                  </Button>
+                </div>
+              </CardBody>
+            </Card>
+          </CardDeck>
+        </Col>
+      </Row>
     </div>
   );
 }
