@@ -336,7 +336,7 @@ function Company() {
             <Card className="stats-card shadow">
               <CardBody>
                 <Row>
-                  <Col lg="push-3">
+                  <Col lg="push">
                     <CardImg
                       className="image"
                       src="/images/goodwatercapital.png"
@@ -354,7 +354,7 @@ function Company() {
                 </Row>
                 <div className="Button">
                   <Button className="Button1" size="sm">
-                    Predictive Technology}
+                    Predictive Technology
                   </Button>
                   <Button className="Button1" size="sm">
                     Marketing Automation
