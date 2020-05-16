@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Badge } from "reactstrap";
 import {
   Card,
   CardImg,
@@ -19,7 +19,7 @@ function Company() {
         <div className="col lg-4">
           <center>
             <h2 className="heading">
-              Engineering teams that fit your preferences.
+              <b>Engineering teams that fit your preferences.</b>
             </h2>
             <h3 className="heading">
               Search by culture, tech stack, values or perks. Sort by
@@ -30,15 +30,34 @@ function Company() {
 
         <Row className="content">
           <Col className="tabs" lg="4">
-            <h4>
-              1.Search by culture, tech-stack,values or perks. Sort by
-              science-based match score.
-            </h4>
+            <h4 className="m-2">LOCATION</h4>
+            <Button color="primary" className="m-2">San Fransisco</Button>
+            <Button color="primary" className="m-2">New York</Button>
+            <Button color="primary" className="m-2">London</Button>
+            <Button color="primary" className="m-2">Bangalore</Button>
+            <br />
+            <h4 className="m-2">TECHNOLOGY</h4>
+            <Button color="primary" className="m-2">JavaScript</Button>
+            <Button color="primary" className="m-2">Python</Button>
+            <Button color="primary" className="m-2">NodeJS</Button>
+            <Button color="primary" className="m-2">Django</Button>
+            <br />
+            <h4 className="m-2">SCALE</h4>
+            <Button color="primary" className="m-2">1-20 People</Button>
+            <Button color="primary" className="m-2">10-30 People</Button>
+            <Button color="primary" className="m-2">20-50 People</Button>
+            <Button color="primary" className="m-2">50-100 People</Button>
+          <br />
+            <h4 className="m-2">INDUSTRY</h4>
+            <Button color="primary" className="m-2">Software</Button>
+            <Button color="primary" className="m-2">Internet</Button>
+            <Button color="primary" className="m-2">HealthCare</Button>
+            <br />
           </Col>
 
           <Col lg="4">
             <CardDeck className="stats">
-              <Card className="stats-card">
+              <Card className="stats-card  shadow">
                 <CardBody>
                   <Row>
                     <Col sm="2" lg="3">
@@ -77,7 +96,7 @@ function Company() {
             </CardDeck>
 
             <CardDeck className="stats">
-              <Card className="stats-card">
+              <Card className="stats-card shadow">
                 <CardBody>
                   <Row>
                     <Col lg="3">
@@ -108,7 +127,7 @@ function Company() {
             </CardDeck>
 
             <CardDeck className="stats">
-              <Card className="stats-card">
+              <Card className="stats-card shadow">
                 <CardBody>
                   <Row>
                     <Col lg="3">
@@ -144,7 +163,7 @@ function Company() {
             </CardDeck>
 
             <CardDeck className="stats">
-              <Card className="stats-card">
+              <Card className="stats-card shadow">
                 <CardBody>
                   <Row>
                     <Col lg="3">
@@ -173,7 +192,7 @@ function Company() {
 
           <Col lg="4">
             <CardDeck className="stats">
-              <Card className="stats-card">
+              <Card className="stats-card shadow">
                 <CardBody>
                   <Row>
                     <Col lg="3">
@@ -212,7 +231,7 @@ function Company() {
             </CardDeck>
 
             <CardDeck className="stats">
-              <Card className="stats-card">
+              <Card className="stats-card shadow">
                 <CardBody>
                   <Row>
                     <Col lg="3" sm="3">
@@ -243,7 +262,7 @@ function Company() {
             </CardDeck>
 
             <CardDeck className="stats">
-              <Card className="stats-card">
+              <Card className="stats-card shadow">
                 <CardBody>
                   <Row>
                     <Col lg="3">
