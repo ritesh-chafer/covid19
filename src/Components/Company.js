@@ -15,7 +15,7 @@ import "./Company.css";
 function Company() {
   return (
     <div className="Main">
-      <container-fluid>
+     
         <div className="col lg-4">
           <center>
             <h2 className="heading">
@@ -29,41 +29,72 @@ function Company() {
         </div>
 
         <Row className="content">
-          <Col className="tabs" lg="4">
+         
+          <Col className="tabs" lg="3">
             <h4 className="m-2">LOCATION</h4>
-            <Button color="primary" className="m-2">San Fransisco</Button>
-            <Button color="primary" className="m-2">New York</Button>
-            <Button color="primary" className="m-2">London</Button>
-            <Button color="primary" className="m-2">Bangalore</Button>
+            <Button color="primary" size="sm" className="m-2">
+              San Fransisco
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              New York
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              London
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              Bangalore
+            </Button>
             <br />
             <h4 className="m-2">TECHNOLOGY</h4>
-            <Button color="primary" className="m-2">JavaScript</Button>
-            <Button color="primary" className="m-2">Python</Button>
-            <Button color="primary" className="m-2">NodeJS</Button>
-            <Button color="primary" className="m-2">Django</Button>
+            <Button color="primary" size="sm" className="m-2">
+              JavaScript
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              Python
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              NodeJS
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              Django
+            </Button>
             <br />
             <h4 className="m-2">SCALE</h4>
-            <Button color="primary" className="m-2">1-20 People</Button>
-            <Button color="primary" className="m-2">10-30 People</Button>
-            <Button color="primary" className="m-2">20-50 People</Button>
-            <Button color="primary" className="m-2">50-100 People</Button>
-          <br />
+            <Button color="primary" size="sm" className="m-2">
+              1-20 People
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              10-30 People
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              20-50 People
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              50-100 People
+            </Button>
+            <br />
             <h4 className="m-2">INDUSTRY</h4>
-            <Button color="primary" className="m-2">Software</Button>
-            <Button color="primary" className="m-2">Internet</Button>
-            <Button color="primary" className="m-2">HealthCare</Button>
+            <Button color="primary" size="sm" className="m-2">
+              Software
+            </Button>
+            <Button color="primary" size="sm" className="m-2">
+              Internet
+            </Button>
+            <Button color="primary" size="sm"className="m-2">
+              HealthCare
+            </Button>
             <br />
           </Col>
 
-          <Col lg="4">
+          <Col lg="ml-auto">
             <CardDeck className="stats">
               <Card className="stats-card  shadow">
                 <CardBody>
                   <Row>
-                    <Col sm="2" lg="3">
+                    <Col lg="2">
                       <CardImg className="image" src="/images/scalyr.png" />
                     </Col>
-                    <Col sm="3" lg="9">
+                    <Col lg="2">
                       <CardText className="address">
                         <h2>Scalyr</h2>
                         <h3>
@@ -190,7 +221,7 @@ function Company() {
             </CardDeck>
           </Col>
 
-          <Col lg="4">
+          <Col lg="auto">
             <CardDeck className="stats">
               <Card className="stats-card shadow">
                 <CardBody>
@@ -299,7 +330,7 @@ function Company() {
             </CardDeck>
           </Col>
         </Row>
-      </container-fluid>
+  
     </div>
   );
 }

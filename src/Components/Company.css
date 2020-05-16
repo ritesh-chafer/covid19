@@ -1,11 +1,13 @@
 .Main {
   padding-top: 50px;
   padding-bottom: 50px;
-padding-right: 30px;
+
   background: #f8f9fa;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
+  overflow: hidden;
+  
 }
 .Main h2{
       font-weight: 500;
@@ -17,17 +19,16 @@ padding-right: 30px;
 }
 .Main h3{
     font-weight: 000;
-    font-size: 16px;
-    font-style: ;
+    font-size: 14px;
     letter-spacing: .04em;
     color: #38374a;
 }
-.Main .h5{
-  font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+.Main h5{
+  font-weight: bold;
+    font-size: 18px;
+    
     letter-spacing: .04em;
-    color: ##38374a;
+    color: #38374a;
 }
 @media screen and (max-width: 700px) {
   .Main {
@@ -50,11 +51,11 @@ padding-right: 30px;
   }
 }
 .stats-card {
-  padding:20px;
+  padding:15px;
   border-radius: 25px;
   border-style: none;
   height: 250px;
-  width: 470px;
+  width: 500px;
   
 
 }
@@ -76,11 +77,16 @@ padding-right: 30px;
 }
 .Button{
   padding-top: 8px;
+  
 }
 .Button1{
   margin: 3px;
-  color: #000000;
+  
   background-color: transparent;
+  color:#656574;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
 }
 @media screen and (max-width:600px){
   .image{
@@ -93,20 +99,23 @@ padding-right: 30px;
   padding-top: 1px;
 }
 .Button1{
-
-  color: #000000;
+ color:#656574;
+  align-items: center;
+  text-align: center;
   background-color: transparent;
 
 }}
 .tabs{
-  padding-top: 25px;
-   padding-left: 30px;
+  padding-top: 20px;
+   padding-left: 38px;
    padding-right: 60px;
   
 
 }
 .stats {
-  padding-top: 25px;
+  padding-top: 15px;
+  padding-left: 9px;
+
 }
 @media screen and (max-width: 1300px) {
   .tabs {
