@@ -30,28 +30,29 @@ function Company() {
 
         <Row className="content">
           <Col className="tabs" lg="4">
-            <h4 className="m-2">LOCATION</h4>
-            <Button color="primary" className="m-2">San Fransisco</Button>
-            <Button color="primary" className="m-2">New York</Button>
-            <Button color="primary" className="m-2">London</Button>
-            <Button color="primary" className="m-2">Bangalore</Button>
+            <h4 className="m-1" style={{fontSize: '15px'}}><b>LOCATION</b></h4>
+            <Button className="Button1" size="sm">San Fransisco</Button>
+            <Button className="Button1" size="sm">New York</Button>
+            <Button className="Button1" size="sm">London</Button>
+            <Button className="Button1" size="sm">Bangalore</Button>
             <br />
-            <h4 className="m-2">TECHNOLOGY</h4>
-            <Button color="primary" className="m-2">JavaScript</Button>
-            <Button color="primary" className="m-2">Python</Button>
-            <Button color="primary" className="m-2">NodeJS</Button>
-            <Button color="primary" className="m-2">Django</Button>
+            <h4 className="m-1" style={{fontSize: '15px'}}><b>TECHNOLOGY</b></h4>
+            <Button className="Button1" size="sm">JavaScript</Button>
+            <Button className="Button1" size="sm">NodeJS</Button>
+            <Button className="Button1" size="sm">React</Button>
+            <Button className="Button1" size="sm">Python</Button>
             <br />
-            <h4 className="m-2">SCALE</h4>
-            <Button color="primary" className="m-2">1-20 People</Button>
-            <Button color="primary" className="m-2">10-30 People</Button>
-            <Button color="primary" className="m-2">20-50 People</Button>
-            <Button color="primary" className="m-2">50-100 People</Button>
-          <br />
-            <h4 className="m-2">INDUSTRY</h4>
-            <Button color="primary" className="m-2">Software</Button>
-            <Button color="primary" className="m-2">Internet</Button>
-            <Button color="primary" className="m-2">HealthCare</Button>
+            <h4 className="m-1" style={{fontSize: '15px'}}><b>SCALE</b></h4>
+            <Button className="Button1" size="sm">1-10 People</Button>
+            <Button className="Button1" size="sm">10-25 People</Button>
+            <Button className="Button1" size="sm">25-50 People</Button>
+            <Button className="Button1" size="sm">50-100 People</Button>
+            <br />
+            <h4 className="m-1" style={{fontSize: '15px'}}><b>INDUSTRY</b></h4>
+            <Button className="Button1" size="sm">Software</Button>
+            <Button className="Button1" size="sm">Hardware</Button>
+            <Button className="Button1" size="sm">Business</Button>
+            <Button className="Button1" size="sm">Health Care</Button>
             <br />
           </Col>
 
@@ -61,7 +62,7 @@ function Company() {
                 <CardBody>
                   <Row>
                     <Col sm="2" lg="3">
-                      <CardImg className="image" src="/images/scalyr.png" />
+                      <CardImg className="image" src="/images/scalyr.png" style={{borderRadius: '20%'}} />
                     </Col>
                     <Col sm="3" lg="9">
                       <CardText className="address">
@@ -100,7 +101,7 @@ function Company() {
                 <CardBody>
                   <Row>
                     <Col lg="3">
-                      <CardImg className="image" src="/images/loom.png" />
+                      <CardImg className="image" src="/images/loom.png" style={{borderRadius: '20%'}} />
                     </Col>
                     <Col lg="9">
                       <CardText>
@@ -131,7 +132,7 @@ function Company() {
                 <CardBody>
                   <Row>
                     <Col lg="3">
-                      <CardImg className="image" src="/images/dott.png" />
+                      <CardImg className="image" src="/images/dott.png" style={{borderRadius: '20%'}} />
                     </Col>
                     <Col lg="9">
                       <CardText>
@@ -167,7 +168,7 @@ function Company() {
                 <CardBody>
                   <Row>
                     <Col lg="3">
-                      <CardImg className="image" src="/images/terrazo.png" />
+                      <CardImg className="image" src="/images/terrazo.png" style={{borderRadius: '20%'}} />
                     </Col>
                     <Col lg="9">
                       <CardText>
@@ -199,6 +200,7 @@ function Company() {
                       <CardImg
                         className="image"
                         src="/images/missionlane.png"
+                        style={{borderRadius: '20%'}}
                       />
                     </Col>
                     <Col lg="9">
@@ -235,7 +237,7 @@ function Company() {
                 <CardBody>
                   <Row>
                     <Col lg="3" sm="3">
-                      <CardImg className="image" src="/images/Bridg.png" />
+                      <CardImg className="image" src="/images/Bridg.png" style={{borderRadius: '20%'}} />
                     </Col>
                     <Col lg="9">
                       <CardText>
@@ -269,6 +271,7 @@ function Company() {
                       <CardImg
                         className="image"
                         src="/images/goodwatercapital.png"
+                        style={{borderRadius: '20%'}}
                       />
                     </Col>
                     <Col lg="9">
